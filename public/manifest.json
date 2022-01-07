@@ -1,0 +1,40 @@
+{
+  "name": "iSocialMedia",
+  "short_name": "iSocialMedia",
+  "theme_color": "#0d6efd",
+  "background_color": "#0d6efd",
+  "display": "standalone",
+  "start_url": "https://isocialmedia.web.app",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon3.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon4.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

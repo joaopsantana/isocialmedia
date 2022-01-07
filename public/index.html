@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/browser.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <link rel="icon" href="/img/favicon.png" type="image/png"/>
+    <link rel="manifest" href="/manifest.json">
+    <title>iSocialMedia</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span class="navbar-text">
+          iSocialMedia - App em fase de testes
+        </span>
+        <div>
+          <button class="btn btn-outline-light me-2" id="buttonInstall" type="button">Baixar App Android/PC</button>
+          <a type="button" class="btn btn-outline-light me-2" id="desconectar" href="login.html">Fazer Login</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <h2>Acesse os assuntos mais comentados do Twitter Brasil.</h2>
+          <p class="text-left">Consulte as informações do Trending Topics do Twitter Brasil através de um gráfico interativo. Deslize o mouse sobre o gráfico para observar as informações referentes ao volume de menções do termo em alta. Além disso encontre tweets sobre um assunto específico com uma análise de sentimento automática do conteúdo presente no texto.</p>
+          <a href="login.html" type="button" class="btn btn-primary text-center btn-lg">Eu quero acessar</a>
+        </div> 
+        <div class="col-md-6">
+          <div id="lottie1" class="lottie img-fluid"  alt="Desenho com três personagens felizes por conseguir ter uma ideia."></div>  
+        </div>        
+      </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div class="mb-4">
+            <div class="text-center">
+              <div id="lottie2" class="lottie img-fluid svg01" alt="Desenho com um personagem traçando uma meta diante de um gráfico."></div>  
+            </div> 
+            <h3>Acesse o volume do Trending Topics do Twitter Brasil</h3>
+            <p class="mb-0">Encontre os princiapis assuntos mais comentados no Twitter brasileiro, faça descobertas e tenha novas ideias ao acessar o gráfico interativo.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-4">
+            <div class="text-center">
+              <div id="lottie3" class="lottie img-fluid svg01"  alt="Desenho com um personagem esboçando um sentimento diante de elementos de texto."></div>  
+            </div>
+            <h3>Busque os tweets por assunto e receba o sentimento do texto de cada tweet.</h3>
+            <p class="mb-0">Busque tweets digitando um termo a sua escolha, tenha uma amostra do que as pessoas estão tweetando sobre esse assunto além de acessar o sentimento correspondente ao tweet. Em cada tweet o app mostra uma análise automática do sentimento presente no texto. Classificamos cada tweet com um respectivo rótulo de sentimento podendo ser positivo, neutro ou negativo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body> 
+  <script src="js/render.js" defer></script>
+  <script type="text/javascript" src="/service-worker.js"></script>
+  <script type="text/javascript" src="/script.js"></script>
+  <script type="text/javascript" src="/script2.js"></script> 
+</html>     
