@@ -9,7 +9,7 @@ Front-End: Bootstrap 5, javascript puro, animação com Lottie, autenticação f
 
 Back-End: Cloud Heroku(node.js express + python) e banco de dados NoSQL firebase realtime database.
 
-Os arquivos da pasta public correspondem ao Front-End e a pasta functions ao Back-End.
+Os arquivos da pasta public correspondem ao Front-End.
 
 A Ferramenta usa no backend python o dicionário léxico oplexicon v3 para efetuar análise de sentimento dos textos. Fiz algumas alterações no arquivo original do dicionário como remoção de itens e colunas para uma adequação a este projeto. Dou os devidos créditos ao Grupo de Processamento da Linguagem Natural da PUCRS por esse excelente trabalho de construção do dicionário, referência: https://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/oplexicon
 
